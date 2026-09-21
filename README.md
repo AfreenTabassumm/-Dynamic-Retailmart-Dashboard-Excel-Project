@@ -1,35 +1,35 @@
-# 🛒 Walmart Dynamic Retail Dashboard | Power BI
+# 🛒 Walmart Dynamic Retail Dashboard | Excel
 
-![Walmart Dashboard](dashboard.png)
+![Walmart Retail Dashboard](dashboard.png)
 
 ## 📊 Project Overview
 
-The **Walmart Dynamic Retail Dashboard** is an interactive Power BI dashboard designed to analyze retail sales performance, profitability, order trends, product categories, customer segments, and geographical performance.
+The **Walmart Dynamic Retail Dashboard** is an interactive **Microsoft Excel dashboard** developed to analyze retail sales, profitability, orders, product categories, customer segments, and geographical performance.
 
-The dashboard provides a consolidated view of key business metrics and allows users to dynamically analyze retail performance using multiple filters such as **Order Date, Segment, Category, Region, Sub-Category, Market, Order Priority, and Ship Mode**.
+The dashboard transforms raw retail data into an easy-to-understand business report using **Excel PivotTables, PivotCharts, slicers, KPI cards, and interactive visualizations**.
 
-This project demonstrates the use of **Power BI, Data Visualization, KPI Analysis, Interactive Filters, and Business Intelligence** to convert retail data into actionable insights.
+It allows users to dynamically filter and analyze business performance based on different dimensions such as **Order Date, Segment, Category, Region, Sub-Category, Market, Order Priority, and Ship Mode**.
 
 ---
 
 ## 🎯 Project Objectives
 
-The main objectives of this dashboard are:
+The main objectives of this project are:
 
-- Analyze overall **Sales, Profit, Quantity, and Orders**
-- Understand **Profit Margin** and business profitability
-- Compare orders across different **Product Categories**
-- Analyze order distribution across **Customer Segments**
-- Identify the **Top 5 performing Sub-Categories**
-- Identify the **Bottom 5 Sub-Categories**
-- Analyze sales and profit relationships
-- Understand order distribution across different **Countries/Regions**
-- Provide interactive filtering for detailed analysis
-- Build a business-friendly dashboard for retail decision-making
+- Analyze overall sales and profit performance
+- Track total orders and quantity sold
+- Calculate and monitor profit margin
+- Compare orders across product categories
+- Analyze customer segment performance
+- Identify top-performing sub-categories
+- Identify low-performing sub-categories
+- Analyze geographical order distribution
+- Understand the relationship between sales and profit
+- Create an interactive and user-friendly Excel reporting dashboard
 
 ---
 
-## 📌 Key KPIs
+## 📌 Key Performance Indicators
 
 | KPI | Value |
 |---|---:|
@@ -39,52 +39,52 @@ The main objectives of this dashboard are:
 | 🧾 Total Orders | **51.29K** |
 | 📊 Profit Margin | **11.61%** |
 
-These KPIs provide a quick overview of the overall business performance.
+These KPIs provide a quick summary of the overall retail business performance.
 
 ---
 
-## 📈 Dashboard Analysis
+## 📈 Dashboard Components
 
 ### 1. Category-Wise Total Orders
 
-The dashboard compares total orders across major product categories:
+A pie chart is used to compare total orders across:
 
-- **Office Supplies**
-- **Furniture**
-- **Technology**
+- Furniture
+- Office Supplies
+- Technology
 
-This helps identify which product categories contribute the largest share of total orders.
+This provides a quick view of the order contribution from each major product category.
 
 ---
 
 ### 2. Segment-Wise Total Orders
 
-Customer orders are analyzed across different customer segments:
+The dashboard analyzes orders across three customer segments:
 
 - Consumer
 - Corporate
 - Home Office
 
-This analysis helps understand customer purchasing behavior and segment contribution.
+This helps understand how different customer segments contribute to overall order volume.
 
 ---
 
-### 3. Orders by Country
+### 3. Total Orders by Country
 
-The geographical visualization shows the distribution of orders across different countries.
+A geographical visualization is used to display order distribution across different countries.
 
-This helps businesses:
+This helps in understanding:
 
-- Identify high-order markets
-- Understand geographical demand
-- Compare regional performance
-- Support market expansion decisions
+- Geographic demand
+- High-order markets
+- Regional distribution
+- Market-level performance
 
 ---
 
-### 4. Top 5 Sub-Categories
+### 4. Top 5 Sub-Categories by Total Orders
 
-The dashboard highlights the top-performing sub-categories based on total orders.
+The dashboard identifies the five sub-categories with the highest order volumes.
 
 | Rank | Sub-Category | Orders |
 |---:|---|---:|
@@ -94,13 +94,13 @@ The dashboard highlights the top-performing sub-categories based on total orders
 | 4 | Paper | 3,538 |
 | 5 | Chairs | 3,434 |
 
-This view helps identify products with strong order demand.
+This analysis helps identify products with strong customer demand.
 
 ---
 
-### 5. Bottom 5 Sub-Categories
+### 5. Bottom 5 Sub-Categories by Total Orders
 
-The dashboard also identifies sub-categories with comparatively lower order volumes.
+The dashboard also highlights the five sub-categories with comparatively lower order volumes.
 
 | Rank | Sub-Category | Orders |
 |---:|---|---:|
@@ -110,28 +110,27 @@ The dashboard also identifies sub-categories with comparatively lower order volu
 | 4 | Copiers | 2,223 |
 | 5 | Bookcases | 2,411 |
 
-This analysis can help businesses investigate low-demand product areas and evaluate potential improvement opportunities.
+This can help identify product areas that may require further analysis.
 
 ---
 
 ### 6. Sales vs Profit Analysis
 
-The **Sales vs Profit scatter plot** is used to understand the relationship between sales and profit.
+The scatter chart compares **Sales and Profit** to understand their relationship.
 
-It helps identify:
+It can help identify:
 
-- High-sales products/orders
+- High-sales transactions
 - Profitable transactions
-- Low-profit or loss-making transactions
-- General relationship between sales and profitability
-
-This visualization can be useful for identifying areas where higher sales do not necessarily result in higher profit.
+- Low-profit transactions
+- Loss-making transactions
+- The overall relationship between sales and profit
 
 ---
 
 ## 🎛️ Interactive Filters
 
-The dashboard includes multiple slicers that allow users to perform dynamic analysis.
+The dashboard contains multiple **Excel slicers** that allow users to dynamically filter the report.
 
 ### Available Filters
 
@@ -144,84 +143,76 @@ The dashboard includes multiple slicers that allow users to perform dynamic anal
 - ⚡ Order Priority
 - 🚚 Ship Mode
 
-Users can combine multiple filters to drill down into specific business segments.
+These slicers allow users to perform focused analysis without manually filtering the underlying data.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools & Excel Features Used
 
-### Power BI
-- Data Visualization
-- Interactive Dashboard Development
-- KPI Cards
+### Microsoft Excel
+
+- PivotTables
+- PivotCharts
 - Slicers
-- Charts
-- Maps
+- KPI Cards
+- Charts & Visualizations
+- Data Filtering
 - Conditional Formatting
-- Business Intelligence
+- Excel Formulas
+- Data Aggregation
+- Interactive Dashboard Design
 
-### Data Analysis
+### Data Analysis Techniques
+
 - Sales Analysis
-- Profitability Analysis
+- Profit Analysis
 - Order Analysis
 - Category Analysis
 - Customer Segment Analysis
+- Sub-Category Analysis
 - Geographic Analysis
-
-### DAX
-DAX measures can be used to calculate business metrics such as:
-
-- Total Sales
-- Total Profit
-- Total Quantity
-- Total Orders
-- Profit Margin
-- Category and Sub-Category rankings
+- Top & Bottom N Analysis
 
 ---
 
-## 📊 Dashboard Features
+## 📊 Dashboard Design
 
-✨ **Dynamic KPI Cards**
+The dashboard was designed with a **retail/business reporting layout** to make important metrics easily accessible.
 
-📊 **Category & Segment Analysis**
+### Dashboard Highlights
 
-🌍 **Geographical Order Analysis**
-
-🏆 **Top 5 Sub-Category Analysis**
-
-📉 **Bottom 5 Sub-Category Analysis**
-
-📈 **Sales vs Profit Analysis**
-
-🎛️ **Interactive Slicers**
-
-📅 **Year-Based Analysis**
-
-🔍 **Business-Level Drill-Down**
+✅ KPI cards for important business metrics  
+✅ Interactive Excel slicers  
+✅ Category-wise analysis  
+✅ Segment-wise analysis  
+✅ Geographic analysis  
+✅ Top 5 and Bottom 5 analysis  
+✅ Sales vs Profit visualization  
+✅ Year-based filtering  
+✅ Business-focused reporting layout  
 
 ---
 
-## 💡 Key Business Insights
+## 💡 Key Insights
 
-Based on the dashboard:
+The dashboard provides the following high-level observations:
 
-- The business generated approximately **$12.64M in total sales**.
-- Total profit stands at approximately **$1.47M**.
-- The dashboard records more than **51K orders**.
-- Total quantity sold is approximately **178K units**.
+- Total sales are approximately **$12.64M**.
+- Total profit is approximately **$1.47M**.
+- The business has approximately **51K total orders**.
+- Approximately **178K units** have been sold.
 - The overall profit margin is approximately **11.61%**.
-- **Binders** have the highest order volume among the displayed top sub-categories.
-- **Tables** have the lowest order volume among the displayed bottom sub-categories.
-- The dashboard enables comparison of performance across categories, customer segments, markets, and regions.
+- **Binders** have the highest order volume among the displayed Top 5 sub-categories.
+- **Tables** have the lowest order volume among the displayed Bottom 5 sub-categories.
+- The interactive filters allow performance to be analyzed across different business dimensions.
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-Walmart-Retail-Dashboard/
+Walmart-Dynamic-Retail-Dashboard/
 │
-├── 📊 Walmart_Retail_Dashboard.pbix
+├── 📊 Walmart_Retail_Dashboard.xlsx
 ├── 🖼️ dashboard.png
 └── 📄 README.md
