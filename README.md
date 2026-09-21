@@ -1,6 +1,7 @@
 # 🛒 Walmart Dynamic Retail Dashboard | Excel
 
-![Walmart Retail Dashboard](dashboard.png)
+<img width="1013" height="545" alt="image" src="https://github.com/user-attachments/assets/d30bbc57-2af2-402e-8809-869c9a51c031" />
+
 
 ## 📊 Project Overview
 
